@@ -3,7 +3,7 @@
 # Each line is a file pattern followed by one or more owners.
 
 # Default owners for the entire repository
-*       @org-team @username
+*       @chucksburgers
 
 # Specific ownership for certain directories or files
 /docs/  @docs-team
