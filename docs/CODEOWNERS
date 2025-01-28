@@ -1,0 +1,20 @@
+# This is a CODEOWNERS file.
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+
+# Default owners for the entire repository
+*       @org-team @username
+
+# Specific ownership for certain directories or files
+/docs/  @docs-team
+/tools/ @tools-maintainer
+
+# Ownership for specific file types
+*.md    @content-team
+*.js    @frontend-devs
+
+# Ownership for a specific file
+/.github/workflows/deploy.yml @devops-team
+
+# Wildcards for nested directories
+/src/**.css @ui-team
